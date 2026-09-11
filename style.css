@@ -70,6 +70,7 @@ h1{
 .signup-btn:hover{
     background-color: blue;
     color: red;
+    text-decoration: underline;
 }
 .switch-text{
     text-align: center;
@@ -85,4 +86,80 @@ h1{
 .switch-link:hover{
     text-decoration: underline;
     color: navy;
+    text-decoration: underline;
+}
+.form-box{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 4px 10px gray;
+    
+}
+.change-text{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+    color: gray;
+}
+.log-in:hover{
+    text-decoration: underline;
+    color: navy;
+}
+.log-in{
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sign-btn{
+    width: 100%;
+    padding: 13px;
+    background-color: rgb(33, 113, 113);
+    /* outline: none; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    background-color: navajowhite;
+    color: blue;
+    text-decoration: underline;
+}
+.input-label{
+    /* bo?rder: 1px solid red; */
+    margin-bottom: 25px; 
+}
+.input-label label{
+    display: block;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    margin: button 6px;
+}
+.input-label input{
+     width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    outline:none;
+    font-size: 16px;
+    border: 1px solid gray;
+    font-size: 12px;
+}
+
+.forgot{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    text-align: end;
+    font-size: 13px;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
 }
