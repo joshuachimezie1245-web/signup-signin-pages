@@ -59,18 +59,25 @@ header{
     justify-content: space-between;
     padding: 0 80px;
     align-items: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 10;
 }
 .hero-section .left-hero {
     width: 50%;
     /* border: 1px solid red; */
+    margin-top: 100px;
 }
 .hero-section .right-hero{
     width: 50%;
     /* border: 1px solid blue; */
     position:relative ;
+    margin-top: 100px;
 }
 .hero-section{
     display: flex;
+    /* margin-top: 100px;? */
 }
 .left-hero h1{
     color: #ffd6ae;
@@ -80,6 +87,7 @@ header{
     word-spacing: 4px;
     letter-spacing: 2px;
     line-height: 120px;
+
 }
 .left-hero p {
     font-size: 18px;
@@ -93,8 +101,8 @@ header{
 }
 .hero-link .hero-link-btn:first-child{
     background-color: #fb4b29;
-    padding: 9px 17px;
-    border-radius: 7px;
+    padding: 9px 50px;
+    border-radius: 20px 2px 20px 20px ;
     color: white;
     cursor: pointer;
     font-weight: bold;
@@ -114,6 +122,61 @@ header{
 .shoe-photo{
     width: 100%;
     position:absolute;
-    top: 5%;
+    top: 2%;
     left: 0;
+    margin-top: 0px;z-index: 3;
+}
+.left-hero{
+    margin-top: 100px;
+    margin-left: 55px;
+}
+.hero-link{
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+.about{
+    background-color: white;
+    position: relative;
+}
+.position-badge{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
+.pos{
+    width: 300px;
+}
+.photo-s{
+    position: relative;
+    /* left: 50px; */
+    bottom: 80px;
+    z-index: 10px;
+}
+
+.photo-b {
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    z-index: 11px;
+}
+.photo-c {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    z-index: 11px;
+}
+.pos-1{
+    width: 100px;
+}
+.position-photo{
+    border: 1px solid red;
+    width: 400px;
+    position: relative;
+    align-items:;
 }
